@@ -16,12 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Testninty">
+        <activity android:name=".Testninty"/>
 
-        </activity>
-        <activity android:name=".Testtoys">
+        <activity android:name=".Testtoys"/>
+        <activity android:name=".Congrats"/>
+        <activity android:name=".Failed"/>
 
-        </activity>
     </application>
 
 </manifest>

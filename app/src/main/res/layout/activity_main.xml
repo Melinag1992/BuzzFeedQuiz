@@ -6,31 +6,42 @@
     android:layout_height="match_parent"
     tools:context="com.cq4.buzzfeedquiz.MainActivity"
     android:orientation="vertical"
-    android:padding="30dp"
-    android:background="@drawable/buzzfeedquizmain">
+    android:background="@drawable/triangle"
+    >
 
 
+    <ImageView
+        android:layout_margin="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="320dp"
+        android:layout_gravity="bottom|center"
+        android:src="@drawable/ilovetheninecopy" />
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="bottom|center"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+
 
         <Button
             android:id="@+id/toys"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
+            android:layout_width="170dp"
+            android:layout_height="75dp"
             android:layout_gravity="bottom"
             android:layout_marginRight="10dp"
-            android:text="toys" />
+            android:background="@drawable/games"
+             />
 
         <Button
             android:id="@+id/ninty"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
+            android:layout_width="170dp"
+            android:layout_height="75dp"
             android:layout_gravity="bottom"
+            android:background="@drawable/shows"
             android:text="1990's " />
 
     </LinearLayout>

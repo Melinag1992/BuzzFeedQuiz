@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout
 
-</android.support.constraint.ConstraintLayout>
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/triangle">
+
+    <TextView
+        android:id="@+id/question_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="#fff"/>
+
+    <ImageView
+        android:id="@+id/image_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/yes_button"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:background="@drawable/yesbuttons"/>
+        <Button
+            android:id="@+id/no_button"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:background="@drawable/nobuttons"/>
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/nextbutton"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

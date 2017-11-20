@@ -5,4 +5,23 @@ package com.cq4.buzzfeedquiz.model;
  */
 
 public class Toys {
+
+
+    private int image;
+
+    public Toys( int imageView) {
+        this.image = imageView;
+    }
+
+
+    public int getImageView() {
+        return image;
+    }
+
+    public void setImageView(int imageView) {
+        this.image = imageView;
+    }
+
+
+
 }
